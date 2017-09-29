@@ -21,8 +21,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistance", "Persistance"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C4rm4x.WebJob.Persistance.EF", "C4rm4x.WebJob.Persistance.EF\C4rm4x.WebJob.Persistance.EF.csproj", "{D02BE3EA-0E26-4E04-82FE-0B7A06627E78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C4rm4x.WebJob.Framework.Autofac.ServiceBus.Extensions", "C4rm4x.WebJob.Framework.Autofac.ServiceBus.Extensions\C4rm4x.WebJob.Framework.Autofac.ServiceBus.Extensions.csproj", "{ECFA8225-6259-402A-8E40-76522EEA1B90}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,10 +47,6 @@ Global
 		{D02BE3EA-0E26-4E04-82FE-0B7A06627E78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D02BE3EA-0E26-4E04-82FE-0B7A06627E78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D02BE3EA-0E26-4E04-82FE-0B7A06627E78}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ECFA8225-6259-402A-8E40-76522EEA1B90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ECFA8225-6259-402A-8E40-76522EEA1B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ECFA8225-6259-402A-8E40-76522EEA1B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ECFA8225-6259-402A-8E40-76522EEA1B90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +57,5 @@ Global
 		{A638CA9E-1DF7-458C-8C55-302FBB3D472E} = {1D2B8DA7-3475-4642-A9C8-DAE5973A9CAD}
 		{B9EBCAAB-881D-4735-A9B1-6FD782E99495} = {8D9B76BA-B611-4D9F-9550-93EB54D0CE61}
 		{D02BE3EA-0E26-4E04-82FE-0B7A06627E78} = {ED34975E-28B8-41E6-A446-B3D462B9C08C}
-		{ECFA8225-6259-402A-8E40-76522EEA1B90} = {0E79858D-62FF-4373-B13D-6E709F7D0661}
 	EndGlobalSection
 EndGlobal
