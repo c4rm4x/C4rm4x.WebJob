@@ -12,7 +12,7 @@ namespace C4rm4x.WebJob.Framework.Autofac
     /// <summary>
     /// Provides a user-friendly way to implement Autofac.Core.IModule via Autofac.ContainerBuilder
     /// </summary>
-    public abstract class ApiModule : AutofacModule
+    public abstract class JobModule : AutofacModule
     {
         /// <summary>
         /// Adds registration to the Autofac Container Builder
