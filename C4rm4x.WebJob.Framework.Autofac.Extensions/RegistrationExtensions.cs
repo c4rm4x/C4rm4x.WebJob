@@ -96,5 +96,20 @@ namespace C4rm4x.WebJob.Framework.Autofac
             container.RegisterAllMessageHandlers(assemblies);
             container.RegisterAllEventHandlers(assemblies);
         }
+
+        /// <summary>
+        /// Registers all modules that inherit from JobModule within all specified assemblies
+        /// </summary>
+        /// <param name="container">Autofac container builder</param>
+        /// <param name="assemblies">List of assemblies</param>
+        public static void RegisterModules(
+            this ContainerBuilder container,
+            params Assembly[] assemblies)
+        {
+            container.NotNull(nameof(container));
+            assemblies.NotNullOrEmpty(nameof(assemblies));
+
+            container.RegisterAssemblyModules<JobModule>(assemblies);
+        }
     }
 }
