@@ -43,7 +43,7 @@ namespace C4rm4x.WebJob.Framework.Autofac.MessageHandling
         /// Process each message that triggers the job 
         /// by creating a single scope for each of them
         /// </summary>
-        public virtual Task ProcessAsync<TMessage>(TMessage message)
+        public virtual async Task ProcessAsync<TMessage>(TMessage message)
         {
             message.NotNull(nameof(message));
 
@@ -51,7 +51,7 @@ namespace C4rm4x.WebJob.Framework.Autofac.MessageHandling
             {
                 var shell = scope.Resolve<IHandlerShell>();
 
-                return shell.HandleAsync(message);
+                await shell.HandleAsync(message);
             }
         }
     }
