@@ -33,6 +33,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messaging", "Messaging", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C4rm4x.WebJob.Messaging.ServiceBus", "C4rm4x.WebJob.Messaging.ServiceBus\C4rm4x.WebJob.Messaging.ServiceBus.csproj", "{3B445267-6771-4D11-A49A-3A21D25CC371}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Storage", "Storage", "{7443945C-83F5-42B9-9E18-95F3AC98A772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C4rm4x.WebJob.Storage.AzureBlob", "C4rm4x.WebJob.Storage.AzureBlob\C4rm4x.WebJob.Storage.AzureBlob.csproj", "{F83458B4-2657-42E7-B0BD-2AABF4C4AE64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +75,10 @@ Global
 		{3B445267-6771-4D11-A49A-3A21D25CC371}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B445267-6771-4D11-A49A-3A21D25CC371}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B445267-6771-4D11-A49A-3A21D25CC371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F83458B4-2657-42E7-B0BD-2AABF4C4AE64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F83458B4-2657-42E7-B0BD-2AABF4C4AE64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F83458B4-2657-42E7-B0BD-2AABF4C4AE64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F83458B4-2657-42E7-B0BD-2AABF4C4AE64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -84,5 +92,6 @@ Global
 		{4E9B57F0-F7DB-49C7-85F9-0BAEAD4D019F} = {AF56B52B-FD41-4CE9-A7A0-BE87F993063A}
 		{9C7A3464-B1BD-4430-BE48-C0B8DB1E57D4} = {B9803342-7A1D-4B71-BB8C-DFB3E6E302F1}
 		{3B445267-6771-4D11-A49A-3A21D25CC371} = {C21520C4-80D8-47B7-9767-9FD6793127D5}
+		{F83458B4-2657-42E7-B0BD-2AABF4C4AE64} = {7443945C-83F5-42B9-9E18-95F3AC98A772}
 	EndGlobalSection
 EndGlobal

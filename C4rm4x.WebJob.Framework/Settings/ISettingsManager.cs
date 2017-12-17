@@ -10,7 +10,7 @@
         /// </summary>
         /// <param name="key">The key</param>
         /// <returns>The setting if it is present</returns>
-        /// <exception cref="ArgumentException">Throws when either the key is null or a setting associated with the specified key cannot be found</exception>
+        /// <exception cref="System.ArgumentException">Throws when either the key is null or a setting associated with the specified key cannot be found</exception>
         object GetSetting(object key);
 
         /// <summary>
@@ -19,8 +19,8 @@
         /// <typeparam name="TSetting">Type of the setting</typeparam>
         /// <param name="key">The key</param>
         /// <returns>The setting if it is present</returns>
-        /// <exception cref="ArgumentException">Throws when either the key is null or a setting associated with the specified key cannot be found</exception>
-        /// <exception cref="InvalidCastException">When setting cannot be cast to specified type</exception>
+        /// <exception cref="System.ArgumentException">Throws when either the key is null or a setting associated with the specified key cannot be found</exception>
+        /// <exception cref="System.InvalidCastException">When setting cannot be cast to specified type</exception>
         TSetting GetSettingAs<TSetting>(object key);
     }
 }

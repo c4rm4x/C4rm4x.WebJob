@@ -33,6 +33,9 @@ namespace C4rm4x.WebJob.Framework.MessageHandling
 
         private readonly IHandlerFactory _handlerFactory;
 
+        /// <summary>
+        /// Gets whether the exception must be re-throw
+        /// </summary>
         public bool RethrowExceptions { get; private set; }
 
         /// <summary>
