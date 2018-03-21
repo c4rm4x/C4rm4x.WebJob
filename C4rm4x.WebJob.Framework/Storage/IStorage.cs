@@ -16,7 +16,7 @@ namespace C4rm4x.WebJob.Framework.Storage
         /// </summary>
         /// <param name="uri">The document uri</param>
         /// <returns>The instance of the document if this exists</returns>
-        Task<Document> RetrieveAsync(string uri);
+        Task<byte[]> RetrieveAsync(string uri);
 
         /// <summary>
         /// Deletes the content of the content by its url

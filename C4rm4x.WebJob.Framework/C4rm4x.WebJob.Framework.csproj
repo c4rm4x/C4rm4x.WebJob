@@ -105,7 +105,6 @@
     <Compile Include="Settings\AbstractSettingsManager.cs" />
     <Compile Include="Settings\ISettingsManager.cs" />
     <Compile Include="Settings\SettingsManagerExtensions.cs" />
-    <Compile Include="Storage\Document.cs" />
     <Compile Include="Storage\IStorage.cs" />
   </ItemGroup>
   <ItemGroup>

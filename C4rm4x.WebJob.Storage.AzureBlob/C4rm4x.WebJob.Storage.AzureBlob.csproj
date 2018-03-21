@@ -35,8 +35,8 @@
       <HintPath>..\packages\C4rm4x.Tools.Utilities.1.0.0.0\lib\net452\C4rm4x.Tools.Utilities.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="C4rm4x.WebJob.Framework, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\C4rm4x.WebJob.Framework.1.2.0\lib\net46\C4rm4x.WebJob.Framework.dll</HintPath>
+    <Reference Include="C4rm4x.WebJob.Framework, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\C4rm4x.WebJob.Framework.2.0.0\lib\net46\C4rm4x.WebJob.Framework.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.Azure.KeyVault.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">

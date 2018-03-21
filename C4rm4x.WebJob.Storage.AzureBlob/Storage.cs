@@ -5,7 +5,6 @@ using C4rm4x.WebJob.Framework.Storage;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Blob;
 using System;
-using System.Security.Cryptography;
 using System.Threading.Tasks;
 
 #endregion
@@ -48,7 +47,7 @@ namespace C4rm4x.WebJob.Storage.AzureBlob
         /// </summary>
         /// <param name="uri">The document uri</param>
         /// <returns>The instance of the document if this exists</returns>
-        public async Task<Document> RetrieveAsync(string uri)
+        public async Task<byte[]> RetrieveAsync(string uri)
         {
             uri.NotNullOrEmpty(nameof(uri));
 
@@ -60,15 +59,7 @@ namespace C4rm4x.WebJob.Storage.AzureBlob
 
             await cloudBlockBlob.DownloadToByteArrayAsync(content, 0);
 
-            return new Document(content, CalculateHash(content));
-        }
-
-        private static string CalculateHash(byte[] content)
-        {
-            using (var sha1 = new SHA1CryptoServiceProvider())
-            {
-                return Convert.ToBase64String(sha1.ComputeHash(content));
-            }
+            return content;
         }
     }
 }
