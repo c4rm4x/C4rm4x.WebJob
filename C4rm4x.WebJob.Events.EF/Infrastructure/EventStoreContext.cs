@@ -1,8 +1,8 @@
-﻿using C4rm4x.WebJob.Evens.EF.Infrastructure.EntitiesConfiguration;
+﻿using C4rm4x.WebJob.Events.EF.Infrastructure.EntitiesConfiguration;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
 
-namespace C4rm4x.WebJob.Evens.EF.Infrastructure
+namespace C4rm4x.WebJob.Events.EF.Infrastructure
 {
     /// <summary>
     /// The event store context

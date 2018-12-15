@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity;
 
-namespace C4rm4x.WebJob.Evens.EF.Infrastructure.EntitiesConfiguration
+namespace C4rm4x.WebJob.Events.EF.Infrastructure.EntitiesConfiguration
 {
     internal static class Configurator
     {

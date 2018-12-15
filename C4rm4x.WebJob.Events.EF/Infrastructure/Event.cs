@@ -2,7 +2,7 @@
 using C4rm4x.WebJob.Framework;
 using System;
 
-namespace C4rm4x.WebJob.Evens.EF.Infrastructure
+namespace C4rm4x.WebJob.Events.EF.Infrastructure
 {
     /// <summary>
     /// The event entity

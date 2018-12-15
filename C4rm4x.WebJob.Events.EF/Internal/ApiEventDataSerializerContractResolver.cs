@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace C4rm4x.WebJob.Evens.EF
+namespace C4rm4x.WebJob.Events.EF
 {
     internal class ApiEventDataSerializerContractResolver : DefaultContractResolver
     {

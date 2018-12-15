@@ -1,5 +1,5 @@
 ﻿using C4rm4x.Tools.Utilities;
-using C4rm4x.WebJob.Evens.EF.Infrastructure;
+using C4rm4x.WebJob.Events.EF.Infrastructure;
 using C4rm4x.WebJob.Framework;
 using C4rm4x.WebJob.Framework.Events;
 using Newtonsoft.Json;
@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace C4rm4x.WebJob.Evens.EF
+namespace C4rm4x.WebJob.Events.EF
 {
     /// <summary>
     /// Implementation of IEventStore using EF

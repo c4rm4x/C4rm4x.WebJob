@@ -39,7 +39,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C4rm4x.WebJob.Storage.Azure
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Events", "Events", "{9698C6B5-9F1E-4627-890D-1226A954764E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C4rm4x.WebJob.Evens.EF", "C4rm4x.WebJob.Evens.EF\C4rm4x.WebJob.Evens.EF.csproj", "{72FEE96D-6A05-4095-82F5-DBBB2E7DCAFE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C4rm4x.WebJob.Events.EF", "C4rm4x.WebJob.Events.EF\C4rm4x.WebJob.Events.EF.csproj", "{72FEE96D-6A05-4095-82F5-DBBB2E7DCAFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

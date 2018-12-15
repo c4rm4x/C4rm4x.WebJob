@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity.ModelConfiguration;
 
-namespace C4rm4x.WebJob.Evens.EF.Infrastructure.EntitiesConfiguration
+namespace C4rm4x.WebJob.Events.EF.Infrastructure.EntitiesConfiguration
 {
     internal class EventMap : EntityTypeConfiguration<Event>
     {

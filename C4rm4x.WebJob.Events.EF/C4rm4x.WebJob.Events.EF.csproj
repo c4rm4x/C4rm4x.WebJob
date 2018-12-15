@@ -7,8 +7,8 @@
     <ProjectGuid>{72FEE96D-6A05-4095-82F5-DBBB2E7DCAFE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>C4rm4x.WebJob.Evens.EF</RootNamespace>
-    <AssemblyName>C4rm4x.WebJob.Evens.EF</AssemblyName>
+    <RootNamespace>C4rm4x.WebJob.Events.EF</RootNamespace>
+    <AssemblyName>C4rm4x.WebJob.Events.EF</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
