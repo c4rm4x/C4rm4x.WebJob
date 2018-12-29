@@ -22,8 +22,8 @@ namespace C4rm4x.WebJob.Events.EF
         public static JsonSerializerSettings SerializerSettings { get; private set; } =
             new JsonSerializerSettings
             {
-                ContractResolver = new ApiEventDataSerializerContractResolver(),
-                ReferenceLoopHandling = ReferenceLoopHandling.Ignore
+                ReferenceLoopHandling = ReferenceLoopHandling.Ignore,
+                ContractResolver = new ApiEventDataSerializerContractResolver(EventStorePolicy.TypesToIgnore),
             };
 
         /// <summary>
@@ -55,8 +55,9 @@ namespace C4rm4x.WebJob.Events.EF
 
         private static string GetPayload(JobEventData eventData)
         {
-            return JsonConvert.SerializeObject(
-                eventData, Formatting.Indented, SerializerSettings);
+            return EventStorePolicy.IsSensitive(eventData)
+                ? null
+                : JsonConvert.SerializeObject(eventData, Formatting.Indented, SerializerSettings);
         }
     }
 }

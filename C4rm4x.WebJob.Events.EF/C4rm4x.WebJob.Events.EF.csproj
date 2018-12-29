@@ -82,6 +82,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EventStore.cs" />
+    <Compile Include="EventStorePolicy.cs" />
+    <Compile Include="IEventStoreConfiguration.cs" />
     <Compile Include="Infrastructure\EntitiesConfiguration\Configurator.cs" />
     <Compile Include="Infrastructure\EntitiesConfiguration\EventMap.cs" />
     <Compile Include="Infrastructure\Event.cs" />
