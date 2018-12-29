@@ -41,6 +41,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Events", "Events", "{9698C6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C4rm4x.WebJob.Events.EF", "C4rm4x.WebJob.Events.EF\C4rm4x.WebJob.Events.EF.csproj", "{72FEE96D-6A05-4095-82F5-DBBB2E7DCAFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C4rm4x.WebJob.Events.EF.Configuration.Extensions", "C4rm4x.WebJob.Events.EF.Configuration.Extensions\C4rm4x.WebJob.Events.EF.Configuration.Extensions.csproj", "{318F060E-0EC3-4115-9751-0717C68530F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{72FEE96D-6A05-4095-82F5-DBBB2E7DCAFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72FEE96D-6A05-4095-82F5-DBBB2E7DCAFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72FEE96D-6A05-4095-82F5-DBBB2E7DCAFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{318F060E-0EC3-4115-9751-0717C68530F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{318F060E-0EC3-4115-9751-0717C68530F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{318F060E-0EC3-4115-9751-0717C68530F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{318F060E-0EC3-4115-9751-0717C68530F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +108,7 @@ Global
 		{3B445267-6771-4D11-A49A-3A21D25CC371} = {C21520C4-80D8-47B7-9767-9FD6793127D5}
 		{F83458B4-2657-42E7-B0BD-2AABF4C4AE64} = {7443945C-83F5-42B9-9E18-95F3AC98A772}
 		{72FEE96D-6A05-4095-82F5-DBBB2E7DCAFE} = {9698C6B5-9F1E-4627-890D-1226A954764E}
+		{318F060E-0EC3-4115-9751-0717C68530F5} = {9698C6B5-9F1E-4627-890D-1226A954764E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {587D469D-318C-4570-8F69-A75F6FE5FC4D}
